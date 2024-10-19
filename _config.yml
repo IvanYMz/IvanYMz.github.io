@@ -1,0 +1,104 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Morales Zepeda Ivan Yutlanih
+title: Computer Engineer
+email: ivany.mozi@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: facespics
+github_username: IvanYMz
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: ivan-morales-89a117285
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  about_content: | # this will include new lines to allow paragraphs
+  Motivated Computer Engineering student with strong technical skills, problem-solving abilities, and effective teamwork. Quick learner, adaptable, and committed to continuous improvement.
+
+  I am most skilled in: <mark>React Native</mark>, <mark>JavaScript</mark>, <mark>HTML</mark>, and have a basic understanding of <mark>CSS</mark>.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Vallarta Plus
+        link: 
+        sub_title: IT Assistant
+        caption: June 2024 – Present
+        description: | 
+          - Configure 4G modems and manage IT inventory.
+          - Monitor IT metrics and resolve support tickets.
+          - Set up and back up mobile devices, supporting daily IT operations.
+
+      - layout: left
+        title: Universidad de Guadalajara
+        link: https://www.udg.mx/
+        sub_title: System and Database Developer (Social Service)
+        caption: September 2023 – March 2024
+        description: | 
+          - Trained social service participants to manage institutional web pages of "CUCEI" at Universidad de Guadalajara.
+          - Supported teachers in the administration of institutional web pages of "CUCEI" at Universidad de Guadalajara.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI)
+        caption: 2020 – Present
+        sub_title: Computer Engineering
+        description: | 
+          Pursuing a degree in Computer Engineering, focusing on technical skills in software and system development.
+
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      Alongside my interests in computing and technology, I also enjoy:
+      - Music
+      - Video games
+      - Sports
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
