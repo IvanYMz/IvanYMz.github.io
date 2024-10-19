@@ -44,7 +44,6 @@ linkedin_username: ivan-morales-89a117285
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  about_content: | # this will include new lines to allow paragraphs
   Motivated Computer Engineering student with strong technical skills, problem-solving abilities, and effective teamwork. Quick learner, adaptable, and committed to continuous improvement.
 
   I am most skilled in: <mark>React Native</mark>, <mark>JavaScript</mark>, <mark>HTML</mark>, and have a basic understanding of <mark>CSS</mark>.
